@@ -1,0 +1,35 @@
+name: step
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ffmpeg
+  - pip
+  - pip:
+      # Versions used for the paper experiments. The Stepfun vLLM fork runs in
+      # a separate environment; see README.md.
+      - torch==2.11.0
+      - torchaudio==2.11.0
+      - torchcodec==0.11.1
+      - transformers==4.49.0
+      - peft>=0.14,<0.18
+      - safetensors>=0.5,<1
+      - accelerate>=1,<2
+      - datasets>=3,<5
+      - huggingface-hub>=0.28,<1
+      - pyarrow>=18,<25
+      - httpx>=0.27,<1
+      - google-genai>=1,<2
+      - tqdm>=4.66,<5
+      - soundfile>=0.12,<1
+      - librosa>=0.10,<1
+      - jiwer>=3,<5
+      - numpy>=1.26,<3
+      - scipy>=1.12,<2
+      - matplotlib>=3.8,<4
+      - diffusers>=0.30,<1
+      - einops>=0.8,<1
+      - hyperpyyaml>=1.2,<2
+      - onnx>=1.16,<2
+      - onnxruntime>=1.18,<2
+      - s3tokenizer==0.3.0
