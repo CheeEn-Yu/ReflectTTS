@@ -202,3 +202,15 @@ This work builds on [Step-Audio-2](https://github.com/stepfun-ai/Step-Audio2),
 [InstructTTSEval](https://github.com/KexinHUANG19/InstructTTSEval),
 [CLSP](https://huggingface.co/yfyeung/CLSP), and
 [ParaSpeechCaps](https://huggingface.co/datasets/ajd12342/paraspeechcaps).
+
+## Citation
+
+If you find this work useful, please consider citing our paper:
+```bibtex
+@article{yu2026listen,
+  title={Listen, Critique, and Refine: RL-Based Self-Refinement for Instruction-Following Speech Synthesis},
+  author={Yu, Chee-En and Lin, Yi-Cheng and Huang, Sung-Feng and Tsai, Yun-Shao and Chung, Ho-Lam and Chen, Xuanjun and Lee, Hung-yi},
+  journal={arXiv preprint arXiv:2609.24163},
+  year={2026}
+}
+```
